@@ -109,14 +109,14 @@ module.exports = {
           },
         ],
       },
-      // {
-      //   test: /\.(png|jpe?g|svg)$/i,
-      //   use: [
-      //     {
-      //       loader: "file-loader",
-      //     },
-      //   ],
-      // },
+      {
+        test: /\.(png|jpe?g|svg)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
+      },
     ],
   },
   devServer: {
