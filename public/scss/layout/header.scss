@@ -1,0 +1,45 @@
+.header {
+  background: $main-bg;
+  font-size: 16px;
+  line-height: 22px;
+
+  &-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  img {
+    max-width: 132px;
+    margin-right: 80px;
+  }
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+
+  &-item {
+    margin-right: 15px;
+  }
+  &-link:hover {
+    color: $link-color;
+  }
+}
+
+.shopping-cart {
+  display: flex;
+  align-items: center;
+  margin-right: -3px;
+
+  span {
+    color: #fff;
+    margin-right: 5px;
+    margin-bottom: 4px;
+  }
+}
