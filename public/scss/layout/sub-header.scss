@@ -1,0 +1,33 @@
+.sub-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-header-title {
+  font-size: 28px;
+  line-height: 75px;
+  font-weight: 600;
+}
+
+.sub-header-list {
+  display: flex;
+}
+
+.sub-header-item {
+  margin-right: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: 0.1s linear;
+
+  &.active,
+  &:hover {
+    background: #ffbf49cc;
+  }
+}
+
+.sub-header-link {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
