@@ -7,9 +7,9 @@ const subHeaderTemplate = `
         <h1 class="sub-header-title">Пицца</h1>
         <nav class="sub-header-nav">
           <ul class="sub-header-list">
-            <li class="sub-header-item active"><a href="#" class="sub-header-link">Все</a></li>
+            <li class="sub-header-item"><a href="#" class="sub-header-link">Все</a></li>
             <li class="sub-header-item"><a href="#" class="sub-header-link">Метровая пицца</a></li>
-            <li class="sub-header-item"><a href="#" class="sub-header-link">Круглая пицца</a></li>
+            <li class="sub-header-item active"><a href="#" class="sub-header-link">Круглая пицца</a></li>
           </ul>
         </nav>
         <div class="sort">
