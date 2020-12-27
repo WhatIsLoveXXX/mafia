@@ -1,5 +1,5 @@
 import {render} from '../functions/render'
-import {content} from '../components/content'
+import {content} from '../components/content/content'
 import {aboutPizza} from '../components/aboutPizza'
 
 const mainTemplate = `
